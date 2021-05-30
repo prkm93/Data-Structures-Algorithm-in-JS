@@ -50,7 +50,7 @@ function sameUsingFrequencyCounter(arr1, arr2) {
     arr1.forEach((char) => frequency1[char] = frequency1[char]> 0 ? ++frequency1[char] : 1);
     arr2.forEach((char) => frequency2[char] = frequency2[char]> 0 ? ++frequency2[char] : 1);
     
-    console.log("frequency1", frequency1);
+    console.log(frequency1);
     console.log(frequency2);
 
     for (let char in frequency1) {
