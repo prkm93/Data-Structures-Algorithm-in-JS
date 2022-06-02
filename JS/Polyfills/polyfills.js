@@ -8,6 +8,10 @@ Array.prototype.ownForEach =  function (callback) {
     }
 }
 
+numbers.ownForEach(function(el){
+    console.log(el);
+})
+
 /** map polyfill */
 
 Array.prototype.ownMap = function(callback) {
@@ -33,3 +37,5 @@ Array.prototype.ownFilter = function(callback, context) {
 
   return newArr;
 }
+
+
